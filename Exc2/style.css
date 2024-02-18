@@ -1,9 +1,41 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.reg{
+body{
+    background: repeating-conic-gradient(#00ff4e, #3100ff,#00ff4e, #3100ff,#00ff4e, #3100ff,#00ff4e, #3100ff);
+    min-height: 100vh;
     display: flex;
-    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.reg{
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 193px;
+    background: repeating-conic-gradient(#ff0000, #ff9300, #d8ff00, #27ff00, #00d8ff, #000aff, #ff00ff, #ff0000)
+}
+
+.input{
+    margin-bottom: 5px;
+    padding: 8px 10px;
+    display: block;
+    width: 87.6%;
+}
+
+.btn{
+    padding: 8px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: repeating-radial-gradient(#999, #000, #999, #000);
+    color: #ffffff;
+
 }
