@@ -1,0 +1,70 @@
+/*
+Придерживайся одного стиля оформления CSS кода
+Следи за вложенностью свойств в селекторе
+Удали ненужные значения
+Проверь свойства на дубликаты
+Проверь все открывающие закрывающие символы
+Сокращай код где это возможно
+Используй группировку свойств по назначению
+*/
+.product {
+    max-width: 350px;
+    margin: 0 auto;
+
+    background-color: #fff;
+    box-shadow: 0 0 76px rgba(231, 231, 231, 0.66);
+}
+
+.product-header {
+    display: flex;
+}
+
+.product-header-left {
+    width:25%;
+    margin: 2rem 0 0;
+    padding: 0;
+
+    list-style: none;
+    text-align: center;
+
+    background-color: #fff;
+}
+
+.product-header-left li {
+    margin-bottom: 2.5rem;
+}
+
+.product-header-btn {
+    padding: 0;
+    border: 0;
+
+    background: none;
+    cursor: pointer;
+}
+
+.product-header-right {
+    width: 75%;
+    position: relative;
+}
+
+.product-label {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    left: -25px;
+    bottom: 1rem;
+
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 50px;
+    color: #fff;
+
+
+    border-radius: 50%;
+    background-color: #333;
+
+}
